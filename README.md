@@ -2,5 +2,5 @@
 <p>Are you looking for a simple looking website for your discord bot? Well I've created this website for you.<br>It's simple and responsive on most devices.</p>
 
 <h1>Quick Demonstration:</h1>
-<img src="github/Capture.PNG" height+"200" />
+<img src="github/Capture.PNG" height+"200" width="200" />
 <a href="">Quick Demo</a>
