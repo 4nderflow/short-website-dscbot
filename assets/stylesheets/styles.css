@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background: black;
+
+}
+
+:root {
+    --color-cahnger: white;
+}
+
+/* nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 1px solid rgb(255,255,255,0.1);
+    background: rgba(12, 12, 12, 0.1);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+}
+
+nav .col-1 {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+nav .col-1 .pfp {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    background: linear-gradient(to top, blue, purple);
+}
+
+nav .col-1 h1 {
+    font-family: Tahoma;
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--color-cahnger);
+}
+nav .col-2 {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+nav .col-2 .btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    background: linear-gradient(to right, rgb(68, 0, 255), rgb(67, 80, 255));
+    border-radius: 15px;
+}
+
+nav .btn h1 {
+    color: var(--color-cahnger);
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+nav .btn img {
+    height: 20px;
+    filter: invert(1);
+   
+
+}
+
+
+/* card */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 150px auto;
+    padding: 50px 10px 50px 10px;
+    background: rgb(10,10,10);
+    border: 1px solid rgb(255,255,255,0.1);
+    border-radius: 15px;
+    width: 60%;
+    min-width: 60% !important;
+    max-width: 65%;
+
+}
+
+.card .pfp {
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    background: linear-gradient(to top, blue, purple);
+
+}
+.card span {
+    color: white;
+    font-size: 1em;
+    font-family: Tahoma, sans-serif;
+    font-weight: 300;
+    opacity: .5;
+}
+
+.card h1 {
+    color: white;
+    margin: 30px auto 0;
+    font-family: sans-serif;
+    font-weight: 300;
+   
+
+
+}
+
+.card .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    gap: 5px ;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
+    background: white;
+    width: 50%;
+    min-width: 50% !important;
+    max-width: 55%;
+    cursor: pointer;
+}
+
+
+.card .btn img {
+    height: 20px;
+}
+.card .btn p {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1em;
+
+}
+
+/* cards */
+.bot-features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 150px auto;
+}
+.bot-features h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 2.3em;
+}
+
+.bot-features img {
+    filter: invert(1);
+    height: 50px;
+}
+
+.bot-features .cards-col {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.bot-features .features {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    background: rgb(10,10,10);
+    border: 1px solid rgb(255,255,255,0.1);
+    border-radius: 10px;
+    margin: 50px auto 0;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    transition: transform .2s ease-in-out;
+}
+
+.bot-features .features:hover {
+    transform: scale(1.01)translateY(-10px);
+}
+
+.bot-features .title {
+    display: flex;
+    align-items: right;
+    flex-direction: column;
+    pointer-events: none;
+}
+.bot-features .features h1 {
+    font-size: 1.1em;
+}
+
+.bot-features .features p {
+    color: white;
+    font-family: sans-serif, Tahoma;
+    font-size: 1em;
+
+}
+
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.showcase .index-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.showcase .s-image img {
+    filter: invert(1);
+    height: 260px;
+}
+
+
+footer {
+    margin: 0 auto 10px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    justify-content: center;
+    font-family: Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
